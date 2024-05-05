@@ -30,6 +30,8 @@ def main():
     case '*':
       result = multiply(left_number, right_number)
     case '/':
+       result = divide(left_number, right_number)
+    case 'divide':
       result = divide(left_number, right_number)
 
     case _ :
